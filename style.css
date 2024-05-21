@@ -1,0 +1,420 @@
+body{
+    width: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: akshar;
+    src: url('Akshar-Medium.ttf');
+}
+@font-face {
+    font-family: gothic;
+    src: url(BIZUDPGothic-Bold.ttf);
+}
+@font-face {
+    font-family: italicblack;
+    src: url(Aileron-Regular.otf);
+}
+@font-face {
+    font-family: italicblack;
+    src: url(ileron-Regular.otf);
+}
+@font-face {
+    font-family: IPAMincho;
+    src: url(IPAMincho-Regular/IPAMincho-Regular.ttf);
+}
+@font-face {
+    font-family: gothic;
+    src: url(BIZUDPGothic-Bold.ttf);
+}
+@font-face {
+    font-family: inter;
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+@font-face {
+    font-family: leaguegothic;
+    src: url(LeagueGothic-Regular-VariableFont_wdth.ttf);
+}
+
+.ecran1{
+    display: grid;
+    grid-template-rows:6.25rem 5rem 62.5rem;
+    background-image: url('guffgcgc.png');
+    background-position: 0% 0%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.head_counter{
+    background-color: brown;
+    border: 3px solid #000;
+    border-radius: 3.12rem;
+    background: linear-gradient(90deg, #e8a778 0%, rgba(232, 167, 120, 0.98) 0%, rgba(232, 167, 120, 0) 100%);
+    display: flex;
+    justify-content: flex-start;
+
+}
+.text3{
+    height: 50%;
+    border-bottom: 2px solid black;
+}
+.frame_14{
+    width: 100%;
+    height: 100;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+}
+.counter_1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 15% ;
+}
+.ferst{
+    font-family: italicblack;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 3%;
+}
+.second{
+    font-family: akshar;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #000;
+    margin-bottom: 6%;
+}
+.therd{
+    font-family: gothic;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 4%;
+    line-height: 1.2rem;
+}
+.ferth{
+    font-family: gothic;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 4%;
+    line-height: 1.2rem;
+}
+.fefth{
+    font-family: gothic;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000;
+    line-height: 1.2rem;
+}
+.first3{
+    font-family: italicblack;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 1.5%;
+    padding-top: 5%;
+    padding-left: 3%;
+    width: 97%;
+}
+.different_kinds_of_mochi{
+    font-family: italicblack;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000;
+    margin-top: 6%;
+    padding-left: 40%;
+    width: 60%;
+    height: 60%;
+}
+.second3{
+    font-family: italicblack;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 1.5%;
+    padding-left: 6%;
+    width: 94%;
+}
+.third3{
+    font-family: italicblack;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 1.5%;
+    padding-left: 6%;
+    width: 84%;
+}
+.forth3{
+    font-family: gothic;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 4%;
+    line-height: 1.5rem;
+    width: 77%;
+    padding-left: 13%;
+}
+
+.first{
+    font-family: italicblack;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 1.5%;
+}
+.secondd{
+    font-family: gothic;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 3%;
+}
+.third{
+    font-family: gothic;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 4%;
+    line-height: 1.5rem;
+    width: 90%;
+}
+.joy{
+    padding-top: 13%;
+    padding-left: 5%;
+    width: 100%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+
+}
+.full{
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding-top: 13%;
+    padding-left: 15%;
+
+    img{
+        width: 70%;
+        box-shadow: 10px 7px 4px 0 rgba(0, 0, 0, 0.5);
+    }
+}
+.counter_2 img{
+    width: 85%;
+    height: auto;
+    margin-top: 5%;
+}
+.frame14{
+    display: flex;
+    justify-content: center;
+}
+.frame_22{
+    width: 19.56rem;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.logo img{
+    position: relative;
+    left: 30%;
+    animation: instagram 1s infinite;
+}
+.instagram{
+    width: 50px;
+    height: 50x;
+    border-radius: 50px;
+    position: fixed;
+    top: 30%;
+    left: 2%;
+}
+@keyframes insagram {
+    0%{width: 50px;
+    height: 50px;}
+    50%{width: 30%;
+    height: 30%;}
+
+    
+}
+.button{
+    border-radius: 90px;
+    width: 203px;
+    height: 46px;
+    background: #be824d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font6);
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fcebdf;
+    margin-top: 25%;
+    font-family: akshar;
+    letter-spacing: 0.2rem;
+    animation: buttom 1s infinite;
+}
+.mochi_banner{
+    border: 10px solid #fff;
+    border-radius: 150px;
+    width: 60%;
+    margin-left: 21%;
+    height: 23%;
+    box-shadow: 10px 7px 4px 0 rgba(0, 0, 0, 0.4);
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+.mochi_banner div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mochipic{
+    width: 100%;
+    height: 100%;
+    border-left: 7px solid #fff;
+}
+.mochipic:first-child{
+    width: 105%;
+}
+
+
+
+
+.ecran2{
+    background-image: url('backgound pic.png');
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    height: 113.4vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 42% 55%;
+    grid-template-rows: 1fr 1fr;
+}
+.ecran3{
+    background-image: url('decoration 3rd ecran.png');
+    background: linear-gradient(180deg, #fff 11%, #a5471494 100%, #a5471498 70%);
+    height: 100vh;
+    grid-template-rows: 50% 50%;
+}
+.ecran4{
+    background-color: rgb(255, 255, 255);
+    background-image: url('backgound pic.png');
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    height: 113.4vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 42% 55%;
+    grid-template-rows: 1fr 1fr;
+}
+
+a{
+    color: rgb(255, 248, 236);
+    text-decoration: none;
+}
+.fiirst{
+    font-family: italicblack;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 1.5%;
+}
+.seconddd{
+    font-family: gothic;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 3%;
+}
+.thiird{
+    font-family: gothic;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 4%;
+    line-height: 1.5rem;
+    width: 90%;
+}
+.joyy{
+    padding-top: 13%;
+    padding-left: 5%;
+    width: 100%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+
+}
+.fulll{
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding-top: 13%;
+    padding-left: 15%;
+
+    img{
+        width: 70%;
+        box-shadow: 10px 7px 4px 0 rgba(0, 0, 0, 0.5);
+    }
+}
+.ecran5{
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    height: 25vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background-image: url(BACKGROUNDIMGCONTACTINFO.png);
+}
+.texttysm{
+    font-family: inter;
+    margin-bottom: 1.5%;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    color: #000;
+}
+.texttysm1{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 1,25rem;
+    text-align: center;
+    color: #000;
+    margin-right: 41%;
+    margin-bottom: 7%;
+    margin-top: -1.7%;
+}
+.ytg3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 3%;
+    margin-bottom: 0.5%;
+}
+.rights{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 0.94rem;
+    text-align: center;
+    color: #000;
+}
+.ytg1{
+    margin-bottom: 5%;
+}
+.ytg2{
+    margin-bottom: -3%;
+    height: 90px;
+    margin-top: 12%;
+}
+.contact{
+    margin-top: 40%;
+    margin-left: 15%;
+}
